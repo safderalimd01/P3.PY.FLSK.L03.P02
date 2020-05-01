@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "0b1d70a5-b119-4dcd-a8dc-c054ed896984",
+		"name": "P3-PY.FLSK.L03.P02",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/sales-dashboard",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1ODgzMDk0MzQsIm5iZiI6MTU4ODMwOTQzNCwianRpIjoiZTQzYWJmYzAtZmVkOC00MWQzLTg3NjctZjc3M2FiNGRmM2NjIiwiZXhwIjoxNTg4MzEwMzM0LCJpZGVudGl0eSI6Imt1bWFyIiwiZnJlc2giOnRydWUsInR5cGUiOiJhY2Nlc3MifQ.IruKuV92mgIzVM0bIo0A8YL2l5zHH-n6-szFuojTv_Y",
+						"disabled": true
+					},
+					{
+						"key": "start_date",
+						"value": "2020-1-1",
+						"type": "text"
+					},
+					{
+						"key": "end_date",
+						"value": "2020-5-10",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/sales-dashboard",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"sales-dashboard"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
